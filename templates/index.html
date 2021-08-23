@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <!-- Import css styles -->
+    <link rel="stylesheet" href='/static/main.css' />
+  </head>
+  <body>
+    <h1>{{title}}</h1>
+    <!-- List all available roots using link to the root and its title -->
+    <p><a href = "{{url_root}}{{prcp}}"> {{prcp_title}} </a></p>
+    <p><a href = "{{url_root}}{{stts}}"> {{stts_title}} </a></p>
+    <p><a href = "{{url_root}}{{tobs}}"> {{tobs_title}} </a></p>
+    <p><a href = "{{url_root}}{{start_date}}"> {{stdt_title}} </a></p>
+    <p><a href = "{{url_root}}{{start_date}}/{{end_date}}"> {{steddt_title}} </a></p>
+    <span>Hint: to edit Start Date/End Date change values year/month/day in url</span>
+  </body>
+</html>
