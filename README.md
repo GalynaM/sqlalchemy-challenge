@@ -2,7 +2,7 @@
 Project focuses on working with database through sqlalchemy Session.query.
 
 ### Libraries used:
-* Matplotlib.pyplot, numpy, pandas, sqlalchemy.
+* Matplotlib.pyplot, datetime, numpy, pandas area plot, sqlalchemy.
 
 ### Database:
 * SQLite.
@@ -20,11 +20,18 @@ Project focuses on working with database through sqlalchemy Session.query.
 * Flask API was created using Flask, hmtl, css.
 * app.py
 
-- Bonus Part 1
-* Temperature analysis using paired t-test
+#### Bonus Part 1 Compare the Temperatures from Months of June and December across all years
 * temp_analysis_bonus_1_starter.ipynb
+* Temperature analysis was done using paired t-test:
+  - June mean temperature = 75F,
+  - December mean temperature = 71F.
+  - To check if this difference is statistically significant we performed the Independent Ttest and found:
+  - pvalue <<<< 0.1, which means that the difference in the Average of June and December Temperatures is statistically significant.
 
-- Bonus Part 2
-* Temperature analysis using error bar
-* Rainfall analysis using Python datetime, Pandas area plot
+#### Bonus Part 2 For selected period of time analyse Temperatures and calculate the total amount of rainfall per weather station
 * temp_analysis_bonus_2_starter.ipynb
+* Find Min, Max, Average Temperatures for selected period of time using SQL function, show Temperature analysis using error bar
+  ![image](https://github.com/user-attachments/assets/5b081f76-9028-42de-a942-b612d5a70f34)
+* The total amount of rainfall per weather station for the trip dates using the previous year's matching dates.
+  ![image](https://github.com/user-attachments/assets/419b3032-72ef-416a-8b85-9a32dd304a9f)
+
