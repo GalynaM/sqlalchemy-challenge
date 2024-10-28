@@ -22,7 +22,7 @@ Project focuses on working with database through sqlalchemy Session.query.
   
 * Flask API was created using Flask, sqlalchemy, jsonify. Server response was generated in JSON format.
 ![image](https://github.com/user-attachments/assets/65dad5f4-7967-402d-9f31-abd382d4bed9)
-<img src="https://github.com/user-attachments/assets/2c347fab-77aa-4edf-86e6-03bc57ea8ec0" width="200" height="100"/>
+<img src="https://github.com/user-attachments/assets/2c347fab-77aa-4edf-86e6-03bc57ea8ec0" width="300" height="200"/>
 
 
 
