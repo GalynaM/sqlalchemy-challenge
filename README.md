@@ -20,7 +20,11 @@ Project focuses on working with database through sqlalchemy Session.query.
 ### Part 2 Climate App that shows results of analysis.
 * app.py
   
-* Flask API was created using Flask, hmtl, css.
+* Flask API was created using Flask, sqlalchemy, jsonify. Server response was generated in JSON format.
+![image](https://github.com/user-attachments/assets/65dad5f4-7967-402d-9f31-abd382d4bed9)
+![image](https://github.com/user-attachments/assets/2c347fab-77aa-4edf-86e6-03bc57ea8ec0)
+
+
 
 
 #### Bonus Part 1 Compare the Temperatures from Months of June and December across all years
